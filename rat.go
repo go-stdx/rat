@@ -305,7 +305,7 @@ func (r *Rational) IsEqual(b *Rational) bool {
 	return false
 }
 
-func (r *Rational) SetPrecision(v int) *Rational {
+func (r *Rational) Prec(v int) *Rational {
 	r.precision = v
 	return r
 }
