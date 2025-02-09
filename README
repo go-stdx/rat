@@ -1,0 +1,7 @@
+rat
+===
+
+Wrapper arround math.Rat.
+
+	Rat("0.1").Add("0.2").IsEqual("0.3")
+	Rat(0.1).Add("0.2").Mul(1).IsEqual("0.3")
