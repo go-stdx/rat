@@ -1,3 +1,3 @@
-module github.com/investing-kr/rat
+module github.com/go-stdx/rat
 
-go 1.24
+go 1.23
